@@ -9,7 +9,7 @@
         Ano de nascimento: <input type="number" name="ano" required>
         <button type="submit">Calcular</button>
     </form>
-// oi
+
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $anoNascimento = $_POST["ano"];
